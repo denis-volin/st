@@ -5,8 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
-static int borderpx = 2;
+static char *font = "Source Code Pro:pixelsize=14:antialias=true:autohint=true";
+static char *font2[] = { "Symbola:pixelsize=16:antialias=true:autohint=true" };
+
+static int borderpx = 10;
 
 /*
  * What program is execed by st depends of these precedence rules:
